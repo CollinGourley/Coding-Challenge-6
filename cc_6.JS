@@ -27,3 +27,20 @@
     const mgr1 = new Manager("Bryce", "Opperations", 10);
     const mgr2 = new Manager("Mike", "Retail", 20);
 //Step 5 Create a Class Called Company
+class Company {
+  constructor() {
+    this.employees = [];
+  }
+
+  addEmployee(employee) {
+    this.employees.push(employee);
+  }
+
+  listEmployees() {
+    console.log("Company Employees:");
+    this.employees.forEach(emp => {
+      console.log(emp.describe());
+    });
+  }
+}
+//Instantiate a Company object
