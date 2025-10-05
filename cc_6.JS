@@ -20,4 +20,10 @@
             }
     }
 //Step 4 Create a Few Sample Employees
-    
+    const emp1 = new Employee("Tyler", "Outdoors");
+    const emp2 = new Employee("Josh", "Athletics");
+    const emp3 = new Employee("Nick", "Aquatics");
+
+    const mgr1 = new Manager("Bryce", "Opperations", 10);
+    const mgr2 = new Manager("Mike", "Retail", 20);
+//Step 5 Create a Class Called Company
